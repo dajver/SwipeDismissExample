@@ -1,6 +1,5 @@
 package com.project.swipetocloseactivity;
 
-import android.content.Intent;
 import android.view.View;
 
 public class MainActivity extends BaseSwipeToDismissActivity {
@@ -16,7 +15,6 @@ public class MainActivity extends BaseSwipeToDismissActivity {
     }
 
     public void onClick(View view) {
-        startActivity(new Intent(this, SecondActivity.class));
-        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+        startActivity(this, SecondActivity.class);
     }
 }

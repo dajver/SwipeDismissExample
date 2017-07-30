@@ -1,5 +1,7 @@
 package com.project.swipetocloseactivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -24,6 +26,11 @@ public abstract class BaseSwipeToDismissActivity extends AppCompatActivity {
         super.onBackPressed();
         if(isActivityDraggable())
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+    }
+
+    public void startActivity(Context context, Class<?> className) {
+        startActivity(new Intent(context, className));
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
     }
 
     public abstract int getLayoutId();
