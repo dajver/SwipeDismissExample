@@ -2,6 +2,8 @@
 
 Example how to make swipe activity to dismiss it to previous screen
 
-Here is video example how it looks like, click on it to wath video on youtube.
+Here how it looks like:
 
-[![Watch the video](https://img.youtube.com/vi/V2QPhsrrisE/0.jpg)](https://youtu.be/V2QPhsrrisEY)
+<img src=https://habrastorage.org/web/9bd/e61/188/9bde6118866b405581cb2e316565f735.png width=250 />
+
+Here is video example how it looks like, click on it to watch video on <a href="https://youtu.be/EOnJH3A39i8">youtube.</a>
